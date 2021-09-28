@@ -14,9 +14,24 @@ img {
 }
 
 .grid {
+    background: darkred;
+    background-color: #F0F8FF;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: start;
+   
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #000000;
   }
 
 .item {
@@ -55,3 +70,11 @@ image{
     display: flex;
     justify-content: center;
 }
+.img:hover{
+    background-color: rgba(250, 10, 10, 0.349);
+    color:  black;
+  }
+.origami:hover{
+    transform: scale(1.2);
+    
+  }
